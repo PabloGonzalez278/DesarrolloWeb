@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autores" content="Camilo Mora, Pablo Gonzales, Valentina Rozo">
+    <meta name="description" content="Módulos y Requerimientos Funcionales de AGRODAT">
+    <title>Módulos y Requerimientos Funcionales - AGRODAT</title>
+</head>
+<body>
+    <nav>
+        <a href = "#Objetivo Principal">Objetivo Principal</a>
+        <a href = "#Usuarios">Usuarios</a>
+        <a href = "#Modulos y Requerimientos funcionales">Modulos y Requerimientos funcionales</a>
+        <a href = "#Requrimientos no funcionales">Requrimientos no funcionales</a>
+        <a href = "#Arquitectura General">Arquitectura General</a>
+        <a href = "#Infraestructura">Infraestructura</a>
+        </nav>
+    <h1>Módulos y Requerimientos Funcionales</h1>
+    <h2>Información Básica</h2>
+    <p>La plataforma permite el ingreso, edición y eliminación de información básica como las vacas y fincas.</p>
+    <h2>Producción</h2>
+    <p>Este es el módulo donde el usuario una vez ingrese los pesajes diarios tanto de la finca como individual por vaca; una vez se ingresa esta información la aplicación deberá entregar indicadores como pesaje desde el último parto y gráficas:</p>
+    <ul>
+        <li>Producción promedio por vaca por litros por día</li>
+        <li>Litros por hectárea año</li>
+        <li>Litros/trabajador/día</li>
+    </ul>
+    <h2>Reproducción</h2>
+    <p>Los usuarios en este módulo ingresan la información reproductiva como los servicios, los diagnósticos de preñez, la terminación del estado de preñez; con esta información la plataforma calculará indicadores como:</p>
+    <ul>
+        <li>Cantidad de partos</li>
+        <li>Fecha del último parto</li>
+        <li>Días de gestación</li>
+        <li>Días en leche</li>
+        <li>Días abiertos</li>
+        <li>Intervalo promedio entre partos</li>
+        <li>Servicios promedios por concepción</li>
+    </ul>
+    <p>La aplicación generará notificaciones, es decir, le deberá avisar en la fecha que se debe realizar las actividades:</p>
+    <ul>
+        <li>Servicio</li>
+        <li>Examinar preñez</li>
+        <li>Reconfirmar preñez</li>
+        <li>Secado</li>
+        <li>Preparto</li>
+        <li>Evaluación condición corporal</li>
+        <li>Siguiente servicio</li>
+        <li>Observar calor</li>
+    </ul>
+    <h2>Alimentación</h2>
+    <p>La aplicación una vez se le ingresa el pesaje, la aplicación le calcula los datos de alimentación como:</p>
+    <ul>
+        <li>Relación</li>
+        <li>Cantidad de concentrado Alto</li>
+        <li>Cantidad de concentrado Bajo</li>
+        <li>Cantidad</li>
+    </ul>
+    <h2>Sanitario</h2>
+    <p>Los usuarios podrán ingresar información sobre vacunación y enfermedades de las vacas. En caso de que la vaca deba ser retirada del hato, se ingresa la fecha de reintegro, la aplicación le notifica el día que lo debe realizar.</p>
+    <h2>Reporte Trabajo Diario</h2>
+    <p>Los usuarios en la finca podrán revisar las tareas diarias que deben realizar, además de notificar la finalización. Diariamente la aplicación genera un correo al administrador donde revisa las tareas diarias que realizaron y las que no se han terminado.</p>
+</body>
+</html>

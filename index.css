@@ -1,0 +1,43 @@
+body{
+    font-family: Calibri;
+}
+
+.indices{
+    padding-left: 1em;
+    color: black;
+}
+.indice{
+    font-weight: bold;
+    margin: 10px 0;
+    padding-left: 1em;
+    
+}
+.indiceLink{
+    color: black;
+    text-decoration: none;
+}
+#formButton{
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    margin-left: 20px;
+    line-height: 20px;
+    transition: all 200ms;
+    touch-action: manipulation;
+    list-style: none;
+    padding: 10px 12px;
+    background-color: rgb(238, 236, 236);
+    cursor: pointer;
+}
+
+#formButton:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+
+#formLink{
+    text-decoration: none;
+    color: black;
+}

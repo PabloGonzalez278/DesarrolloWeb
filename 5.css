@@ -1,0 +1,64 @@
+body{
+    font-family: Calibri;
+}
+
+h1, h2, h3{
+    color: rgb(68, 114, 196);
+}
+
+h1{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 13px;
+}
+
+p{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 12px;
+}
+
+#arquitecturaImg{
+    display: flex;
+    justify-content: center;
+}
+
+.negocioPadre{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#negocioImg{
+    float: left;
+}
+
+#negocioDesc{
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#navbar ul{
+    list-style-type: none;
+    background-color: rgb(238, 236, 236);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+#navbar a:hover{
+    background-color: #F3F4F6;
+}
+#navbar li{
+    float: left;
+}

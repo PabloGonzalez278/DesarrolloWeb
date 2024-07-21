@@ -1,0 +1,38 @@
+body{
+    font-family: Calibri;
+}
+
+h1{
+    color: rgb(68, 114, 196);
+    font-size: 16px;
+}
+
+p{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    background-color: rgb(238, 236, 236);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+#navbar a:hover{
+    background-color: #F3F4F6;
+}
+#navbar li{
+    float: left;
+}

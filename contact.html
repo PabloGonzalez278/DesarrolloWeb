@@ -6,35 +6,55 @@
     <title>Contact</title>
     <meta name="autores" content="Camilo Mora, Pablo Gonzales, Valentina Rozo">
     <meta name="descripcion" content="Formulario de contacto">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <form action="index.php" method="POST" enctype="multipart/form-data">
+    <div class="container">
+    <h1>Formulario de contacto</h1>
+    <form onsubmit="checkForm()">
 
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" placeholder="ingrese su nombre" required>
+        <div class="formRow">
+            <div class="inputData">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Ingrese su nombre" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="inputData">
+                <label for="surnames">Apellidos:</label>
+                <input type="text" id="surnames" placeholder="Ingrese sus apellidos" required>
+                <span class="error-message" id="surnamesError"></span>
+            </div>
+        </div>
 
+        <div class="formRow">
+            <div class="inputData">
+                <label for="name">Fecha:</label>
+                <input type="text" id="date" onfocus="checkDate()" onkeyup="checkDate()" onblur="checkDate()" required>
+                <span class="error-message" id="dateError"></span>
+            </div>
+            <div class="inputData">
+                <label for="surnames">Edad:</label>
+                <input type="text" id="age" required>
+                <span class="error-message" id="ageError"></span>
+            </div>
+        </div>
+
+        <div class="formRow">
+            <div class="buttonsDiv">
+                <input type="submit" id="submitBtn" class="buttons">
+            </div>
+            <div class="buttonsDiv">
+                <input type="reset" id="resetBtn" class="buttons">
+            </div>
+        </div>
         <br>
-        <label for="surnames">Apellidos:</label>
-        <input type="text" id="surnames" placeholder="ingrese sus apellidos" required>
-
-        <br>
-        <label for="date">Fecha:</label>
-        <input type="text" id="date" required>
-
-        <br>
-        <label for="age">Edad:</label>
-        <input type="text" id="age" required>
-
-        <br>
-        <input type="reset">
-        <br>
-
-        <input type="submit">
+        <div>
+            <a href="index.html" class="return">Volver</a>
+        </div>
         
-        <br>
-        <a href="index.html">Volver</a>
-
-        <script src="contact.js"></script>
+    </div>
     </form>
+
+    <script src="contact.js"></script>
 </body>
 </html>
